@@ -11,6 +11,7 @@ public class QuizBowl {
         } catch(IOException excep) {
             System.out.println(excep.toString());
             System.out.println("Could not find file.");
+            System.exit(1);
         }
         return quizbowl;
     }
